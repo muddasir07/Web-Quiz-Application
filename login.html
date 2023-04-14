@@ -187,10 +187,11 @@ function result(){
    
     if(score > 4){
       window.open("win.html?score=" + score);
+      window.close();
 
     }else{
       alert("Better Luck Next Time!");
-      window.open("login.html");
+      window.open("index.html");
       window.close();
     }
 }
