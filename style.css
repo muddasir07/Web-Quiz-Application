@@ -1,0 +1,87 @@
+
+body {
+    background-image: url("secure-login.gif");
+    background-size: cover;
+    background-repeat: no-repeat; 
+ 
+
+ }
+ .logo {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .logo img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+ }
+ .Login {
+   width: 425px;
+   height: auto;
+   margin: 80px auto;
+   background-color: rgba(0, 0, 0, 0.918);
+   padding: 15px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px rgba(26, 3, 142, 0.833);
+ }
+ .Login h1 {
+   color: whitesmoke;
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 5px;
+ }
+ 
+.Login p{
+   color: whitesmoke;
+   text-align: center;
+   font-size: 15px;
+   margin-bottom: 15px;
+}
+.Login input[type="text"],
+.Login input[type="password"] {
+  
+ width: 70%;
+ padding: 10px;
+ margin: 0 auto 20px auto;
+ border: 2px solid #0077FF;
+ border-radius: 15px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+ font-size: 16px;
+ display: block;
+ }
+ 
+ .Login input[type="submit"] {
+   width: 45%;
+   margin: 0 auto;
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.466);
+   color: #fff;
+   border: 2px solid #00C853;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+   display: block;
+ }
+ 
+ .Login input[type="submit"]:hover {
+   background-color: #3e8e41;
+   border-color: #008f29e1;
+ }
+ 
+ .forgot-password {
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ .forgot-password a {
+   color: #eff3ed;
+   text-decoration: none;
+   font-size: 14px;
+ }
+ 
+ .forgot-password a:hover {
+   text-decoration: underline;
+ }
+ 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <style>
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+}
+
+h2, h3{
+  text-align: center;
+  color:black;
+  font-weight: 900;
+}
+span{
+    font-weight: bold;
+}
+button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+</style>
+</head>
+
+<body>
+    
+<h2>Instructions for Taking a Quiz</h2> 
+<h3>Logging In</h3> 
+<p>When you access a Quiz page, you might first be prompted to log in woth your account</p> 
+<h3>Taking the Quiz</h3> 
+<p>1- Select an answer for every question. Unanswered questions will be scored as incorrect. <br>
+    <br>
+   2- There are three possible question types: <br> <br>
+    
+   &nbsp;&nbsp;- <span>Multiple Choice:</span>  click the radio button to indicate your choice. Currently, 
+   only one answer can be selected for a multiple choice question. <br>
+    
+   &nbsp;&nbsp;- <span> True/False: </span> click the radio button to indicate your choice. <br>
+    
+   &nbsp;&nbsp;- <span> Matching Answers: </span> select a match from the pop-up list below each item. <br> <br>
+    
+   3- If you use a wheel button mouse, take care not to accidently change your answers.
+    Sometimes scrolling the wheel will rotate through the answers in a selection list, <br>
+     you might have meant simply to scroll farther down in the quiz window. <br> <br>
+    
+   4- Click on the Submit button at the bottom of the page to have your answers graded. <br> <br>
+    
+   5- You will be shown your results, including your score and any feedback offered by the author of the quiz. 
+    You might wish to print this page for your own records. At this stage, <br> you might be able to check your answers:
+     see below. <br> <br>
+    
+    6- If you want to try to get a better score, click the Try Again button at the bottom of the results page.
+     You can try the quiz as many times as you like. <br> <br>
+    
+    7- If you are completing the quiz as part of a class assignment,
+     use the Print command from your web browser to print the results page for your instructor, 
+     and for your own records.</p>
+
+     <button onclick="Continue()"> Continue</button>
+
+     <script>
+        function Continue(){
+            window.open("index.html");
+            window.close();
+        }
+     </script>
+
+
+</body>
+</html>

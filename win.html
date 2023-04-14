@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body{
+            background-image: url("d009678eb5b1658468704f51bfc11173.gif");
+            background-repeat: no-repeat;
+            background-position: center;  
+          
+        }
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+button {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.3em;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f2e8b87;
+}
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+    <h1>Hurrah! You Passed</h1>
+    <button onclick="Viewscore()">View Score</button>
+</div>
+
+    <script >
+      
+        function Viewscore(){
+            var score = new URLSearchParams(window.location.search).get("score");
+            alert("You Secured : " + score);
+        }
+    </script>
+</body>
+</html>
